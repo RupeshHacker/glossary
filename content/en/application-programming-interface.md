@@ -1,26 +1,26 @@
 ---
-title: Application Programming Interface (API)
-status: Completed
-category: technology
-tags: ["architecture", "fundamental", ""]
+title: अप्लिकेशन प्रोग्रामिंग इंटरफेस (API)
+status: पूर्ण
+category: तकनीक
+tags: ["संरचना", "सारभूत", ""]
 ---
 
-## What it is
+## यह क्या है 
 
-An API is a way for computer programs to interact with each other. 
-Just as humans interact with a website via a web page, an API allows computer programs to interact with each other. 
-Unlike human interactions, APIs have limitations on what can and cannot be asked of them. 
-The limitation on interaction helps to create stable and functional communication between programs.
+एपीआई संगणक प्रोग्रामों के लिए एक दूसरे के साथ अंतःक्रिया करने का एक तरीका है।
+जिस तरह मनुष्य एक वेब पेज के माध्यम से एक वेबसाइट के साथ बातचीत करते हैं, उसी तरह एक एपीआई संगणक प्रोग्राम को एक दूसरे के साथ बातचीत करने की अनुमति देता है।
+मानवीय अंतःक्रियाओं के विपरीत एपीआई की सीमाएं होती हैं, कि उनसे क्या पूछा जा सकता है और क्या नहीं।
+अंतःक्रिया पर सीमा कार्यक्रमों के बीच स्थिर और कार्यात्मक संचार बनाने में मदद करती है।
 
-## Problem it addresses
+## समस्या यह संबोधित करती है
 
-As applications become more complex, small code changes can have drastic effects on other functionality. 
-Applications need to take a modular approach to their functionality if they can grow and maintain stability simultaneously. 
-Without APIs, there is a lack of a framework for the interaction between applications. 
-Without a shared framework, it is challenging for applications to [scale](/scalability/) and integrate.
+जैसे-जैसे एप्लिकेशन अधिक जटिल होते जाते हैं, छोटे कोड परिवर्तन अन्य कार्यक्षमता पर भारी प्रभाव डाल सकते हैं।
+यदि एप्लिकेशन एक साथ विकसित हो सकते हैं और स्थिरता बनाए रख सकते हैं, तो उन्हें अपनी कार्यक्षमता के लिए एक प्रमापीय दृष्टिकोण अपनाने की आवश्यकता है। 
+एपीआई के बिना, अनुप्रयोगों के बीच बातचीत के लिए एक ढांचे की कमी है।
+साझा ढांचे के बिना, अनुप्रयोगों को [स्तर](/scalability/) करना और एकीकृत करना चुनौतीपूर्ण है
 
-## How it helps
+## यह कैसे मदद करता है
 
-APIs allow computer programs or applications to interact and share information in a defined and understandable manner. 
-They are the building blocks for modern applications and they provide developers with a way to integrate applications together. 
-Whenever you hear about [microservices](/microservices/) working together, you can infer that they interact via an API. 
+एपीआई संगणक प्रोग्राम या एप्लिकेशन को परिभाषित और समझने योग्य तरीके से जानकारी को अंत:क्रिया करने और साझा करने की अनुमति देते हैं।
+वे आधुनिक अनुप्रयोगों के लिए बिल्डिंग ब्लॉक हैं और वे डेवलपर्स को अनुप्रयोगों को एक साथ एकीकृत करने का एक तरीका प्रदान करते हैं।
+जब भी आप [लघुसेवाएँ](/microservices/) के एक साथ काम करने के बारे में सुनते हैं, तो आप अनुमान लगा सकते हैं कि वे एक एपीआई के माध्यम से बातचीत करते हैं। 
